@@ -227,16 +227,16 @@ function Current(odLimit,accountNumber,accountHolderName,accountBalance)
        
 }
 
-var obj1 = new Account(12345,"Kishan",65546);
+var obj1 = new Account(12345,"Deepak",65546);
 console.log(obj1);
 
 
-var objSavings = new Savings("true",98765,"Virat",546776); //creating Savings object
+var objSavings = new Savings("true",98765,"Sanam",546776); //creating Savings object
 console.log(objSavings);
 console.log(objSavings.withdraw(500));
 console.log(objSavings.getCurrentBalance());
 
-var objCurrent = new Current(550,9876543,"Nihar",5467878); //creating Current object
+var objCurrent = new Current(550,9876543,"Harsh",5467878); //creating Current object
 console.log(objCurrent);
 console.log(objCurrent.withdraw(2000));
 console.log(objCurrent.getCurrentBalance());
